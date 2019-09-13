@@ -1,8 +1,8 @@
 const express = require('express');
 
-const { UserModel } = require('./app/models/UserModel');
-const { db } = require('./app/db');
-const { routes } = require('./app/routes');
+const { UserModel } = require('./models/UserModel');
+const { db } = require('./db');
+const { routes } = require('./routes');
 
 /**
  * Initializes the server.
