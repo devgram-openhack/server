@@ -16,6 +16,9 @@ async function init() {
 
   await UserModel.upgrade();
 
+  // To receive body requests parsed as JSON
+  server.use(express.json());
+
   server.use(routes);
 
   server.listen(3000);
