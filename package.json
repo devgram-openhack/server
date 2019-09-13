@@ -1,0 +1,26 @@
+{
+  "name": "devgram-server",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "promise-mysql": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-plugin-jsdoc": "^15.9.1",
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devgram-openhack/server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devgram-openhack/server/issues"
+  },
+  "homepage": "https://github.com/devgram-openhack/server#readme"
+}
